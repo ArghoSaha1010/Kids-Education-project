@@ -7,3 +7,103 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared section */
+
+.hide-in-com
+{
+  display: none;
+}
+.main-header li 
+{
+  list-style: none;
+}
+.main-header li a
+{
+  text-decoration: none;
+}
+
+/* header section */
+.main-header
+{
+  margin: 20px auto;
+}
+.main-header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1160px;
+  width: 100%;
+}
+.home-a
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #FEA301;
+}
+.about-a
+{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #01ACFD;
+}
+.facilities-a
+{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #05D4DF; 
+}
+.admission-a
+{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #5D58EF;
+}
+.head-part-one
+{
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.head-part-one img
+{
+  max-width: 62px;
+  max-height: 62px;
+}
+.head-part-one .head-title
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.head-part-two ul
+{
+  display: flex;
+  gap: 32px;
+}
+.head-part-three
+{
+  width: 197px;
+  height: 50px;
+  background-color: #FEA301;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+}
+@media screen and (max-width:576px)
+{
+  .hide-in-phn
+  {
+    display: none;
+  }
+  .menu-icon-phn
+  {
+    display: inline-block;
+    width: 32px;
+  }
+  .main-header
+  {
+    margin: 12 auto;
+  }
+}
