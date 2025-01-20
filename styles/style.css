@@ -92,11 +92,72 @@
   font-weight: 600;
 }
 /* 1st page section */
+.page-one-box1
+{
+  max-width: 640px;
+  width: 100%;
+}
+.hero-kids
+{
+  /* max-width: 365px; */
+  width: 365px;
+}
+.page-one-title
+{
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 0px;
+}
+.empowering
+{
+  color: #FEA301;
+}
+.students
+{
+  color: #111111;
+}
+.towards
+{
+  color: #01ACFD;
+}
+.page-one-description
+{
+  margin-top: 24px;
+  padding-bottom: 24px;
+  color: #111111;
+  width: 70%;
+}
+.page-one-btn
+{
+  width: 195px;
+  height: 50px;
+  background-color: #111111;
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.page-one-box1
+{
+  max-width: 1160px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.page-one-box1
+{
+  margin: 0 auto;
+}
+
 @media screen and (max-width:576px)
 {
   *{
     margin: 0px;
     padding: 0px;
+  }
+  .hero-kids
+  {
+    width: 100%;
   }
   .hide-in-phn
   {
@@ -115,5 +176,18 @@
   .border
   {
     border: 1px #FEA301 solid;
+  }
+  .page-one-box1
+  {
+    flex-direction: column;
+    text-align: center;
+  }
+  .page-div-p1
+  {
+    padding: 10px;
+  }
+  .page-one-description
+  {
+    width: 100%;
   }
 }
