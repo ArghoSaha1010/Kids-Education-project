@@ -442,12 +442,6 @@ img
 {
   padding: 20px 24px;
 }
-.grid-box-4 h3
-{
-  width: 80%;
-  position: relative;
-  left: -10px;
-}
 .our-story-section-title
 {
   font-weight: bold;
@@ -684,13 +678,13 @@ img
   }
   .grid-flex-area button
   {
-    position: relative;
-    top: -25px;
+    top: -22px;
     left: 10px;
     max-width: 140px;
     width: 100%;
     font-size: 0.75rem;
     padding: 6px 2px;
+    height: 32px;
   }
   .grid-flex-area
   {
@@ -700,10 +694,8 @@ img
   }
   .grid-box-2 h3, .grid-box-3 h3, .grid-box-4 h3, .grid-box-5 h3
   {
-    padding: 8px 12px;
+    padding: 24px 12px;
     font-size: 0.9rem;
-    width: fit-content;
-    left: 0;
   }
   .our-story-section
   {
