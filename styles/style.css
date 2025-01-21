@@ -342,8 +342,6 @@ img
 .page-3-pic-flex-area .boro-pic-title
 {
   font-size: 1.9rem;
-  margin-top: 30px;
-  margin-bottom: 40px;
 }
 .grid-flex-area
 {
@@ -365,9 +363,9 @@ img
 .boro-pic-er-img
 {
   width: 100%;
-  height: 337px;
-  margin-top: 2px;
+  height: auto;
   border-radius: 16px 16px 0px 0px;
+  object-fit: cover;
 }
 .one{
   position: relative;
@@ -384,7 +382,6 @@ img
 }
 .boro-pic p
 {
-  width: 65%;
   font-weight: 500;
   font-size: 0.9rem;
   color: #666666;
@@ -400,7 +397,6 @@ img
   width: 50%;
   border-radius: 16px 16px 16px 16px;
   background-color: #FFFFFF;
-  height: 648px;
 }
 .grid-btn2
 {
@@ -467,13 +463,11 @@ img
 .paragraphn-in-boro-pic, .boro-pic-title
 {
   position: relative;
-  left: 8px;
-  margin: 15px;
+  padding: 0 24px;
 }
 .paragraphn-in-boro-pic
 {
   position: relative;
-  top: -15px;
 }
 /* footer area */
 .sky-blue-bg
