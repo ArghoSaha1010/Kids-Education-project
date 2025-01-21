@@ -8,18 +8,22 @@
   font-style: normal;
 }
 /* shared section */
-.add {
-  position: sticky; /* Make the element sticky */
-  bottom: 0; /* Stick to the bottom */
+.add
+{
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  background-color: rgb(254, 163, 1); 
+  background-color: rgb(254, 163, 1);
   color: white;
   font-weight: 700;
-  font-size: 1.2rem;
   padding: 10px 0;
-  z-index: 1000;
   overflow: hidden;
+  z-index: 1000;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+a
+{
+  cursor: pointer;
 }
 button:hover
 {
@@ -681,5 +685,17 @@ img
     width: 300px;
     
   }
-  
+  .add
+  {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(254, 163, 1);
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+    overflow: hidden;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
 }
