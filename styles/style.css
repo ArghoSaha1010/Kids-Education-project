@@ -44,7 +44,7 @@ img
 }
 .btn-dis
 {
-  width: 180px;
+  width: 170px;
   height: 38px;
   border-radius: 47.93px;
   border: none;
@@ -573,6 +573,10 @@ img
 }
 @media screen and (max-width:576px)
 {
+  *{
+    margin: 0;
+    padding: 0;
+  }
   .hero-kids
   {
     width: 100%;
