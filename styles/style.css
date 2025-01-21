@@ -426,7 +426,7 @@ img
 }
 .grid-flex-area
 {
-  gap: 10px;
+  gap: 5px;
 }
 .grid-box-2,
 .grid-box-3,
@@ -680,5 +680,11 @@ img
     overflow: hidden;
     z-index: 1000;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .grid-flex-area button
+  {
+    position: relative;
+    top: -25px;
+    left: 10px;
   }
 }
