@@ -7,7 +7,7 @@
   font-style: normal;
 }
 /* shared section */
-.add
+.live_bar
 {
   position: fixed;
   bottom: 0;
@@ -337,11 +337,13 @@ img
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 40px;
 }
 .page-3-pic-flex-area .boro-pic-title
 {
   font-size: 1.9rem;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 .grid-flex-area
 {
@@ -368,7 +370,7 @@ img
   object-fit: cover;
 }
 .one{
-  position: relative;
+  position: absolute;
   background-color: #3CD8E8;
   border: none;
   width: 170px;
@@ -385,6 +387,7 @@ img
   font-weight: 500;
   font-size: 0.9rem;
   color: #666666;
+  max-width: 75%;
 }
 .boro-pic-title
 {
@@ -468,6 +471,7 @@ img
 .paragraphn-in-boro-pic
 {
   position: relative;
+  padding-bottom: 24px;
 }
 /* footer area */
 .sky-blue-bg
@@ -656,19 +660,6 @@ img
   .div-1 .phn-para-footer
   {
     width: 300px;
-  }
-  .add
-  {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(254, 163, 1);
-    color: white;
-    font-weight: 700;
-    padding: 10px 0;
-    overflow: hidden;
-    z-index: 1000;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
   .grid-flex-area button
   {
